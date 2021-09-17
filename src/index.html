@@ -1,1 +1,66 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="window">
+        <div id="error"></div>
+        <h1 class="header1">JavaScript Forms</h1>
+        <form action="/" method="GET">
+            <div>
+                <input id="fname" name="fname" type="text" placeholder="First Name">
+            </div>
+            <br>
+            <div>
+                <input id="lname" name="fname" type="text" placeholder="Last Name">
+            </div>
+            <br>
+            <div>
+                <input id="phnNum" name="phnNum" type="text" placeholder="Phone">
+            </div>
+            <br>
+            <div>
+                <input id="eAdd" name="eAdd" type="email" placeholder="Email">
+            </div>
+            <br>
+            <div>
+                <input id="pass" name="pass" type="password" placeholder="Password">
+            </div>
+            <br>
+            <div class="subscribe">
+                <input id="tick" name="tick" type="checkbox">
+                <label class="label1 "for="ticked">Subscribe to our newsletter</label>
+            </div>
+            <br>
+            <label class="label2" for="itemList">Choose a city you'd like to travel to:</label><br><br>
+            <select id="dropdown" name="drop">
+                <option value="New York City">New York City</option>
+                <option value="Paris">Paris</option>
+                <option value="London">London</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+            <br>
+            <br>
+            <label class="label3" for="checks">What is your favorite programming langauge so far?</label><br>
+            <input id="final01" name="final01" type="checkbox">
+            <label for="final01">HTML</label>
+            <input id="final02" name="final01" type="checkbox">
+            <label for="final02">CSS</label>
+            <input id="final03" name="final01" type="checkbox">
+            <label for="final03">JavaScript</label>
+            <br>
+            <br>
+            <div>
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
